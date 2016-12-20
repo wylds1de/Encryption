@@ -55,6 +55,14 @@ public class Encryption {
         return out;
     }
     
+    /**
+     * outputs a graphic representation of the distribution of characters, assuming a range of keyword lengths
+     * @param inputFilename
+     * @param outputFilename
+     * @param minLength
+     * @param maxLength
+     * @return true if analysis completes
+     */
     public static boolean keyLengthAnalysis(String inputFilename, String outputFilename, int minLength, int maxLength)
     {
         boolean out = true;
